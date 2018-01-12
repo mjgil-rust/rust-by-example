@@ -11,5 +11,5 @@ rust() {
 ```
 
 ```
-rust 001-hello-world.rs
+rust 01-hello-world/001-hello-world.rs
 ```
