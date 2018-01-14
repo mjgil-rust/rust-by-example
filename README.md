@@ -2,8 +2,12 @@
 rust by example exercises
 
 ```
-install rust then put this in dotfiles
+install rust 
+curl https://sh.rustup.rs -sSf | bash -s -- -y
+```
 
+```
+then put this in dotfiles
 rust() {
   name=$(basename $1 .rs)
   rustc $@ && ./$name && rm $name
