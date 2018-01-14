@@ -4,6 +4,10 @@ rust by example exercises
 ```
 install rust 
 curl https://sh.rustup.rs -sSf | bash -s -- -y
+
+or
+
+brew install rust
 ```
 
 ```
